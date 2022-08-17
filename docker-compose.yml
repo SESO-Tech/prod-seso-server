@@ -1,0 +1,9 @@
+version: '3'
+
+
+services:
+  server:
+    image: sesotech/seso-server:v0.0.1alpha
+    environment:
+      - NODE_ENV=production
+    expose: "80:4000"
