@@ -6,4 +6,5 @@ services:
     image: sesotech/seso-server:v0.0.1alpha
     environment:
       - NODE_ENV=production
-    expose: "80:4000"
+    expose: 
+       - "80:4000"
