@@ -1,12 +1,11 @@
 version: '3'
 
-
 services:
   server:
-    image: sesotech/seso-server:v0.0.11alpha
+    image: sesotech/seso-server:v1.0.0rc
     environment:
       - NODE_ENV=production
     ports:
-      - "80:4000"
-    expose: 
-       - 80
+      - "443:4000"
+    expose:
+      - 443
