@@ -2,7 +2,7 @@ version: '3'
 
 services:
   server:
-    image: sesotech/seso-server:v1.0.1rc
+    image: sesotech/seso-server:v1.0.2rc
     environment:
       - NODE_ENV=production
     ports:
